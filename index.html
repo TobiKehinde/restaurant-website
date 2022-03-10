@@ -10,6 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/chat.css">
 
 
   <!-- Custom Fonts and Icons -->
@@ -331,16 +332,8 @@
       </div>
     </div>
 
-    <!-- <div>
-      <iframe style="border:0; width: 100%; height: 350px;"
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-        frameborder="0" allowfullscreen></iframe>
-    </div> -->
-
     <div class="container">
-
       <div class="row mt-5">
-
         <div class="col-lg-4">
           <div class="info">
             <div class="address">
@@ -397,10 +390,45 @@
         </div>
 
       </div>
-
     </div>
   </section>
 
+  <!-- Chatbot Icon -->
+  <div class="container">
+    <div class="Layout Layout-open Layout-expand Layout-right">
+      <div class="Messenger_messenger">
+        <div class="Messenger_header">
+          <span class="chat_close_icon">
+            <i class="fa fa-window-close" aria-hidden="true"></i></span>
+          <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+          <h4>Hi. My name is Sarah. How may I help you?</h4>
+        </div>
+        <div class="Messenger_content">
+          <div class="Messages">
+            <div class="Messages_list"></div>
+          </div>
+          <div class="Input Input-blank">
+            <textarea class="Input_field" placeholder="Type your message here..." style="height: 20px;"></textarea>
+            <button class="Input_button Input_button-emoji">
+              <div class="Icon">
+                <img class="icons" src="./assets/img/icons/emoji-icon.svg" />
+
+              </div>
+            </button>
+            <button class="Input_button Input_button-send">
+              <div class="Icon">
+                <img class="icons" src="./assets/img/icons/sendMessage-icon.svg" />
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--===============CHAT ON BUTTON START===============-->
+    <div class="chat_on"> <span class="chat_on_icon">
+        <img class="chatbox__button" src="./assets/img/icons/chat-bubbles-with-ellipsis.png" />
+      </span> </div>
+  </div>
 
   <footer id="footer">
     <div class="container">
@@ -424,6 +452,7 @@
     crossorigin="anonymous"></script>
 
   <script src="./assets/script/script.js"></script>
+  <script src="./assets/script/chat.js"></script>
 </body>
 
 </html>
