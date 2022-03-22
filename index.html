@@ -405,41 +405,34 @@
 
   <!-- Chatbot Icon -->
   <div class="container">
-    <div class="Layout Layout-open Layout-expand Layout-right">
-      <div class="Messenger_messenger">
-        <div class="Messenger_header">
-          <span class="chat_close_icon">
-            <i class="fa fa-window-close" aria-hidden="true"></i></span>
-          <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
-          <h4>Hi. My name is Sarah. How may I help you?</h4>
+    <div class="chatbox">
+      <div class="chatbox__support">
+        <div class="chatbox__header">
+          <div class="chatbox__image--header">
+            <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png"
+              alt="chat image icon">
+          </div>
+          <div class="chatbox__content--header">
+            <h4 class="chatbox__heading--header">Chat support</h4>
+            <p class="chatbox__description--header">Hi. My name is Sarah. How may I help you?</p>
+          </div>
         </div>
-        <div class="Messenger_content">
-          <div class="Messages">
-            <div class="Messages_list"></div>
-          </div>
-          <div class="Input Input-blank">
-            <textarea class="Input_field" placeholder="Type your message here..." style="height: 20px;"></textarea>
-            <button class="Input_button Input_button-emoji">
-              <div class="Icon">
-                <img class="icons" src="./assets/img/icons/emoji-icon.svg" />
-
-              </div>
-            </button>
-            <button class="Input_button Input_button-send">
-              <div class="Icon">
-                <img class="icons" src="./assets/img/icons/sendMessage-icon.svg" />
-              </div>
-            </button>
-          </div>
+        <div class="chatbox__messages">
+        </div>
+        <div class="chatbox__footer">
+          <input type="text" placeholder="Write a message...">
+          <button class="chatbox__send--footer send__button">Send</button>
         </div>
       </div>
+      <div class="chatbox__button">
+        <button>
+          <img class="chatbox__button" src="./assets/img/icons/chat-bubbles-with-ellipsis.png" />
+        </button>
+      </div>
     </div>
-    <!--===============CHAT ON BUTTON START===============-->
-    <div class="chat_on"> <span class="chat_on_icon">
-        <img class="chatbox__button" src="./assets/img/icons/chat-bubbles-with-ellipsis.png" />
-      </span> </div>
   </div>
 
+  <!-- Footer -->
   <footer id="footer">
     <div class="container">
       <div class="copyright">
@@ -454,7 +447,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!-- isotope plugin -->
+
   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
